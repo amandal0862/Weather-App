@@ -2,7 +2,7 @@ const options = {
   method: "GET",
   headers: {
     "X-RapidAPI-Key": SECRET_KEY,
-    "X-RapidAPI-Host": SECRET_HOST,
+    "X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com",
   },
 };
 const get_info = (city) => {
